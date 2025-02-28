@@ -1,0 +1,372 @@
+<html><head>
+<title>Portfolio</title>
+
+<style>
+:root {
+  --text-color: #1A1A1A;
+  --bg-color: #F2ECD9;
+  --button-text: #F2ECD9;
+  --button-bg: #1A1A1A;
+  --button-hover: #000000;
+}
+
+.dark-mode {
+  --text-color: #F2ECD9;
+  --bg-color: #1A1A1A;
+  --button-text: #1A1A1A;
+  --button-bg: #F2ECD9;
+  --button-hover: #C4B6A4;
+}
+
+body {
+padding: 0;
+margin: 0;
+background-color: var(--bg-color);
+}
+
+.language {
+position: absolute;
+top: 0px;
+left: 0px;
+display: block;
+}
+
+.languagebutton {
+height: 180px;
+width: 180px;
+font-family: Garamond;
+font-size: 20px;
+color: var(--button-text);
+background-color: var(--button-bg);
+border: none;
+cursor: pointer;
+}
+
+.languagebutton:hover {
+background-color: var(--button-hover);
+}
+
+.languagecontainer {
+position: absolute;
+top: 0%;
+left: 100%;
+height: 100%;
+width: 100%;
+display: none;
+background-color: var(--text-color);
+}
+
+.languagecontainer a {
+height: 60px;
+display: flex;
+padding-left: 20px;
+align-items: center;
+font-family: Garamond;
+font-size: 16px;
+color: var(--button-text);
+text-decoration: none;
+}
+
+.language a:hover {
+opacity: 0.75;
+}
+
+.switchtheme {
+position: absolute;
+top: 0px;
+right: 0px;
+display: block;
+}
+
+.switchthemebutton {
+height: 180px;
+width: 180px;
+font-family: Garamond;
+font-size: 20px;
+color: var(--button-text);
+background-color: var(--button-bg);
+border: none;
+cursor: pointer;
+}
+
+.switchthemebutton:hover {
+background-color: var(--button-hover);
+}
+
+.show {
+display: block;
+}
+
+.image {
+width: 100%;
+height: auto;
+}
+
+.title {
+text-align: center;
+margin-bottom: 25px;
+font-family: Garamond;
+font-size: 150px;
+letter-spacing: -0.05em;
+color: var(--text-color);
+}
+
+.divider {
+margin-left: 80px;
+margin-right:80px;
+color: var(--text-color);
+}
+
+.name {
+text-align: left;
+margin: 0 0 0 80px;
+font-family: Garamond;
+font-size: 50px;
+letter-spacing: -0.05em;
+color: var(--text-color);
+}
+
+.role {
+text-align: right;
+margin: -56.6667px 80px 0 0;
+font-family: Garamond;
+font-size: 50px;
+letter-spacing: -0.05em;
+color: var(--text-color);
+}
+
+.description {
+text-align: justify;
+margin: 50px 80px 80px 80px;
+font-family: Garamond;
+font-size: 25px;
+color: var(--text-color);
+}
+
+.table {
+width: 100%;
+height: auto;
+
+.tableimage {
+width: 100%;
+height: auto;
+}
+</style>
+</head>
+
+<body>
+<div class="language">
+<button onclick="language()" class="languagebutton">Langue</button>
+<div id="language" class="languagecontainer">
+<a href="en.html" style="background-image: url('Portfolio_files/EN.png');">EN</a>
+<a href="fr.html" style="background-image: url('Portfolio_files/FR.png');">FR</a>
+<a href="ru.html" style="background-image: url('Portfolio_files/RU.png');">RU</a>
+</div>
+</div>
+
+<div class="switchtheme">
+<button onclick="switchtheme()" class="switchthemebutton">Changer le thème</button>
+</div>
+
+<img class="image" src="Portfolio_files/photo-eyes.png" style="margin-top: 180px">
+
+<div>
+<div class="title">Mon designer portfolio</div>
+
+<hr class="divider">
+
+<p class="name">Abdykhalyk Arkhat</p>
+
+<p class="role">Graphiste, Concepteur UI/UX</p>
+
+<p class="description">Le design est mon langage, mon métier, ma façon de voir le monde. Chaque projet, chaque trait, chaque pixel et chaque forme est le reflet de quelque chose en moi — une idée, un sentiment, un moment calme traduit dans une forme qui m'appartient uniquement. Je ne crée pas simplement pour suivre des modèles, mais pour sculpter les miens et redéfinir.
+<br><br>
+Je m'appelle Arkhat, et je suis un graphiste et designer UI/UX de 15 ans. Mon travail est façonné par la curiosité et une poursuite sans fin de l'expression. J'expérimente des styles, des médiums et des approches, tout en gardant toujours quelque chose qui m'appartient incontestablement dans chaque pièce que je fabrique. Qu'il s'agisse d'une interface numérique, d'un graphique conceptuel, ou d'une conception identitaire, j'ai mis de l'âme dans mon travail — gracieuse mais audacieuse, intentionnelle mais fluide.
+<br><br>
+Chaque projet est une exploration, un dialogue entre structure et intuition. Certains sont méticuleux, d'autres bruts et instinctifs, mais tous tiennent un morceau de moi. Mon portfolio n'est pas seulement une collection d'œuvres, c'est une archive vivante de mon évolution en tant que designer — qui continuera à croître, à évoluer et à prendre de nouvelles formes.
+<br><br>
+<b>Je crée parce que je dois. Parce que le design n’est pas seulement ce que je fais, c’est qui je suis. Et ce n'est que le début.</b>
+</p>
+
+<div class="title">Le but de mon art</div>
+
+</div>
+
+<div>
+<img class="image" src="Portfolio_files/photo-eyes.png">
+
+<table class="table" cellspacing="0" cellpadding="0">
+<tr>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+</tr>
+</table>
+
+<table class="table" cellspacing="0" cellpadding="0">
+<tr>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+</tr>
+</table>
+
+<table class="table" cellspacing="0" cellpadding="0">
+<tr>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+</tr>
+</table>
+
+<table class="table" cellspacing="0" cellpadding="0">
+<tr>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+<td><img class="tableimage" src="Portfolio_files/photo-eyes.png"></td>
+</tr>
+</table>
+
+<div class="title">est de créer</div>
+</div>
+
+<script>
+function language() {
+document.getElementById("language").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+if (!event.target.matches('.languagebutton')) {
+var languages = document.getElementsByClassName("languagecontainer");
+var i;
+for (i = 0; i < languages.length; i++) {
+var openDropdown = languages[i];
+if (openDropdown.classList.contains('show')) {
+openDropdown.classList.remove('show');
+}
+}
+}
+}
+
+function switchtheme() {
+document.body.classList.toggle('dark-mode');
+
+const images = document.querySelectorAll(".image, .tableimage");
+images.forEach(img => {
+if (document.body.classList.contains('dark-mode')) {
+img.src = img.src.replace("photo-eyes.png", "photo-eyes-dark.png");
+} else {
+img.src = img.src.replace("photo-eyes-dark.png", "photo-eyes.png");
+}
+});
+}
+</script>
+</body></html>
